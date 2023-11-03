@@ -1,18 +1,38 @@
 # belly-button-challenge
 
-In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.
+Step 1: Plotly
 
-The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
+    Use the D3 library to read in samples.json.
 
-The site has the following elements:
+    Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
 
-    A test subject drop-down menu that is dynamically populated based upon the sample data
-    A panel and three graphs are dynamically created based upon the subject selected:
-        A Demographic Panel that lists the subject's information
-        A Bar Graph that illustrates the ten most prevalent OTU's found for this subject
-        A Bubble Graph that illustrates the OTUs and their relative sample values
-        A Gauge that shows the washing frequency
+    Use sample_values as the values for the bar chart.
 
-This dashboard is hosted here:
+    Use otu_ids as the labels for the bar chart.
 
-https://sean-galloway.github.io/Belly-Button-Biodiversity-Dashboard/
+    Use otu_labels as the hovertext for the chart.
+
+    bar Chart
+
+    Create a bubble chart that displays each sample.
+
+    Use otu_ids for the x values.
+
+    Use sample_values for the y values.
+
+    Use sample_values for the marker size.
+
+    Use otu_ids for the marker colors.
+
+    Use otu_labels for the text values.
+
+Bubble Chart
+
+
+
+    Display the sample metadata, i.e., an individual's demographic information.
+
+    Display each key-value pair from the metadata JSON object somewhere on the page.
+
+hw
+https://github.com/v33na/Belly-Button-Biodiversity/raw/master/Images/hw02.png
