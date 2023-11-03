@@ -69,9 +69,10 @@ function getPlots(id) {
     
         // create the bubble plot
         Plotly.newPlot("bubble", bubble_data, bubble_layout); 
+
         
         });
-    }  
+    }
     // create the function to get the necessary data
     function getDemoInfo(id) {
     // read the json file to get data
